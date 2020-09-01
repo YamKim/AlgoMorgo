@@ -71,8 +71,8 @@
     - 루프를 돌며, ret은 cand와 계속 비교/수정되며 최솟값을 갖게될 것이다.
 
 **모든 코딩은 그려질 수 있다**  
-![Example](./Example.png)
+![Example](./Example.png) {: width="300" height="300"){: .center}
 - 6개의 case 중에 최소 거리는 두개인 것처럼 보이지만, 해당 문제는 두 지역 간에 올 때와 갈 때의 거리가 같다.
 - 만일, 갈 때는 택시를 타고, 올 때는 버스를 타는 것과 같이 걸리는 시간 문제로 바뀌게 되면, 최솟값은 하나의 결과만 나올 것이다.
 
-![Algorithm](./Algorithm.png)
+![Algorithm](./Algorithm.png) {: width="300" height="300"){: .center}

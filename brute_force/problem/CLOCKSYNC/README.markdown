@@ -13,7 +13,7 @@
 
 **모든 코드는 그릴 수 있다**
 <p align="left">
-    <img src="./Algorithm.png" alt="Algorithm" width="400">
+    <img src="./Algorithm.png" alt="Algorithm" width="600">
 </p>
 
 **함수구현**

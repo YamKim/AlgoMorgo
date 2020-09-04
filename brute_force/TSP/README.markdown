@@ -1,8 +1,8 @@
 ## brute-force Problems
-[upper dir](#../)
+[upper dir](../)
 
 ## TSP(Traveling Salesman Problem, 외판원 문제)
-[문제링크](#https://www.algospot.com/judge/problem/read/TSP1)
+[문제링크](https://www.algospot.com/judge/problem/read/TSP1)
 
 **아이디어**
 1. 모든 노드를 방문해보며 거리를 누적시킨 후 가장 짧은 거리 선택.
@@ -71,12 +71,9 @@
     - 루프를 돌며, ret은 cand와 계속 비교/수정되며 최솟값을 갖게될 것이다.
 
 **모든 코딩은 그려질 수 있다**  
-<p align="left">
-    <img src="./Example.png" alt="Example" width="270">
+<p align="center">
+    <img src="./Algorithm.png" alt="Algorithm">
 </p>
 
 - 6개의 case 중에 최소 거리는 두개인 것처럼 보이지만, 해당 문제는 두 지역 간에 올 때와 갈 때의 거리가 같다.
 - 만일, 갈 때는 택시를 타고, 올 때는 버스를 타는 것과 같이 걸리는 시간 문제로 바뀌게 되면, 최솟값은 하나의 결과만 나올 것이다.
-<p align="left">
-    <img src="./Algorithm.png" alt="Algorithm" width="400">
-</p>

@@ -32,7 +32,7 @@
 		return (ret);
 	}
 	```
-3. solve: left부터 right까지 울타리를 선택하여 만든 판자의 최대 넓이를 구하는 함수
+2. solve: left부터 right까지 울타리를 선택하여 만든 판자의 최대 넓이를 구하는 함수
 	```cpp
 	int solve(int left, int right) {
 		if (left == right) return (h[right]);

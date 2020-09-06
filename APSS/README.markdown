@@ -11,8 +11,8 @@ CHAPTER 6: 무식하게 풀기(brute force)
  
 CHAPTER 7: 분할 정복(divide conquer)
  - [QUADTREE](./divide_conquer/QUADTREE)
- - [FENCE](./divied_conquer/FENCE)
- - [FANMEETING](./divided_conquer/FANMEETING)  
+ - [FENCE](./divide_conquer/FENCE)
+ - [FANMEETING](./divide_conquer/FANMEETING)  
  
 CHAPTER 8: 동적 계획법(dynaming programming)
  - [BINO](./dynamic_programming/BINO)

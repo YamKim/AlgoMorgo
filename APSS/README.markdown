@@ -15,6 +15,7 @@ CHAPTER 7: 분할 정복(divided conquer)
  - [FANMEETING](./divided_conquer/FANMEETING)  
  
 CHAPTER 8: 동적 계획법(dynaming programming)
+ - [BINO](./dynamic_programming/BINO)
  - WILDCARD
  - JLIS
  - PI

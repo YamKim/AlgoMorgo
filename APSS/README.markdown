@@ -7,12 +7,12 @@
 CHAPTER 6: 무식하게 풀기(brute force)
  - [PICNIC]()
  - [BOARDCOVER]()
- - [CLOCKSYNC](brute_force/CLOCKSYNC/)  
+ - [CLOCKSYNC](./brute_force/CLOCKSYNC/)  
  
 CHAPTER 7: 분할 정복(divided conquer)
  - [QUADTREE](./divied_conquer/QUADTREE)
- - [FENCE](divied_conquer/FENCE)
- - [FANMEETING](divided_conquer/FANMEETING)  
+ - [FENCE](./divied_conquer/FENCE)
+ - [FANMEETING](./divided_conquer/FANMEETING)  
  
 CHAPTER 8: 동적 계획법(dynaming programming)
  - WILDCARD

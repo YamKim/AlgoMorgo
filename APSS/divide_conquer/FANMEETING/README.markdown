@@ -16,25 +16,25 @@
 **함수 구현**
 
 1. hugs: 조건을 만족하는 수를 count 하여 반환.
-```cpp
-int hugs(const string &members, const string &fans) {
-	int N = members.size(), M = fans.size();
-	vector<int> A(N, 0), B(M,0);
-
-	for (int i = 0; i < N; ++i)
-		if (members[i] == 'M') A[i] = 1;
-	//	 뒤집어서 넣어줘야한다.
-	for (int i = 0; i < M; ++i)
-		if (fans[M - 1 - i] == 'M') B[i] = 1;
+	```cpp
+	int hugs(const string &members, const string &fans) {
+		int N = members.size(), M = fans.size();
+		vector<int> A(N, 0), B(M,0);
 	
-	vector<int> res = karatsuba(A, B);
-	int ret = 0;
-	for (int i = N - 1; i < M; ++i)
-		if (res[i] == 0) ++ret;	
-
-	return (ret);	
-}
-```
+		for (int i = 0; i < N; ++i)
+			if (members[i] == 'M') A[i] = 1;
+		//	 뒤집어서 넣어줘야한다.
+		for (int i = 0; i < M; ++i)
+			if (fans[M - 1 - i] == 'M') B[i] = 1;
+		
+		vector<int> res = karatsuba(A, B);
+		int ret = 0;
+		for (int i = N - 1; i < M; ++i)
+			if (res[i] == 0) ++ret;	
+	
+		return (ret);	
+	}
+	```
 
 **모든 코딩은 그려질 수 있다**  
 <p align="center">

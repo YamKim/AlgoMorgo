@@ -46,7 +46,7 @@
     	return (ret);
     }
     ```
-**모든 코드는 그릴 수 있다**
+**모든 코드는 그려질 수 있다**
 <p align="center">
     <img src="./Algorithm.png" alt="Algorithm" width="600">
 </p>

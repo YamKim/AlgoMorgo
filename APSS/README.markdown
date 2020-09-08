@@ -17,6 +17,7 @@ CHAPTER 7: 분할 정복(divide conquer)
 CHAPTER 8: 동적 계획법(dynaming programming)
  - [BINO](./dynamic_programming/BINO)
  - [JUMPGAME](./dynamic_programming/JUMPGAME)
+ - [TRIANGLEPATH](./dynamic_programming/TRIANGLEPATH)
  - [WILDCARD](./dynamic_programming/WILDCARD)
  - JLIS
  - PI

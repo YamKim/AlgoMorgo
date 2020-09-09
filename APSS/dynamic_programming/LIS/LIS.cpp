@@ -5,6 +5,8 @@
 
 using namespace std;
 
+const int INF = 987654321;
+
 int n;
 int S[100], cache[101];
 
@@ -15,9 +17,11 @@ int lis(int start) {
 		//cout << "repetead value!\n";
 		return (ret);
 	}
+	// start가 -1일 때, 기준값은 -무한대로 설정.
+	int maxElement = start == -1 ? -INF : S[start]; 
 	ret = 1; // S[start]뒤에 보다 큰 수가 없으면 return 1
 	for (int next = start + 1; next < n; ++next)
-		if (start == -1 || S[start] < S[next])
+		if (start == -1 || maxElement < S[next])
 			// lis를 호출할 때마다 1씩 증가.
 			ret = max(ret, 1 + lis(next));
 	return (ret);

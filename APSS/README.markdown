@@ -20,7 +20,7 @@ CHAPTER 8: 동적 계획법(dynaming programming)
  - [TRIANGLEPATH](./dynamic_programming/TRIANGLEPATH)
  - [WILDCARD](./dynamic_programming/WILDCARD)
  - [LIS](./dynamic_programming/LIS)
- - JLIS
+ - [JLIS](./dynamic_programming/JLIS)
  - PI
  - QUANTIZE
  - ASYMTILING

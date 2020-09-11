@@ -21,7 +21,7 @@ CHAPTER 8: 동적 계획법(dynaming programming)
  - [WILDCARD](./dynamic_programming/WILDCARD)
  - [LIS](./dynamic_programming/LIS)
  - [JLIS](./dynamic_programming/JLIS)
- - PI
+ - [PI](./dynamic_programming/PI)
  - QUANTIZE
  - ASYMTILING
  - POLY

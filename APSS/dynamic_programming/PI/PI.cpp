@@ -50,9 +50,9 @@ int memorize(int begin) {
 	for (int L = 3; L <= 5; ++L) {
 		int next = begin + L;
 		if (begin + L <= N.size())
-			ret = min(ret, classify(begin, next - 1) + memorize(begin + L + 1));			
+			ret = min(ret, classify(begin, next - 1) + memorize(next));			
 	}
-	
+
 	return (ret);
 }
 

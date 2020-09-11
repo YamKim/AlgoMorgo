@@ -11,7 +11,7 @@
 
 **함수 구현**
 
-1. classify: S[a]와 S[b]의 규칙에 따라 점수 반환
+1. classify: S[a]와 S[b]의 규칙에 따라 점수 반환  
 	```cpp
 	int classify(int a, int b) {
 		string M = N.substr(a, b - a + 1);
@@ -45,7 +45,7 @@
 	}
 	```
 
-2. memorize: S[begin]부터 마지막 인덱스까지 최소점수 반환. (탈출조건: 성공시 0, 실패시 INF)
+2. memorize: S[begin]부터 마지막 인덱스까지 최소점수 반환. (탈출조건: 성공시 0, 실패시 INF)  
 	```cpp
 	int cache[10002];
 	const int INF = 987654321;

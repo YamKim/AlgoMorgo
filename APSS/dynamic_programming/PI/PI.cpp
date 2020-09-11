@@ -36,7 +36,6 @@ int classify(int a, int b) {
 	return (10);
 }
 
-#if 1
 int cache[10002];
 const int INF = 987654321;
 int memorize(int begin) {
@@ -48,14 +47,14 @@ int memorize(int begin) {
 		return (ret);
 	}
 	ret = INF;
-	for (int L = 2; L <= 4; ++L) {
+	for (int L = 3; L <= 5; ++L) {
+		int next = begin + L;
 		if (begin + L <= N.size())
-			ret = min(ret, classify(begin, begin + L) + memorize(begin + L + 1));
+			ret = min(ret, classify(begin, next - 1) + memorize(begin + L + 1));			
 	}
 	
 	return (ret);
 }
-#endif
 
 int main(void) {
 	ios_base::sync_with_stdio(false);

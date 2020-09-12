@@ -22,7 +22,7 @@ CHAPTER 8: 동적 계획법(dynaming programming)
  - [LIS](./dynamic_programming/LIS)
  - [JLIS](./dynamic_programming/JLIS)
  - [PI](./dynamic_programming/PI)
- - QUANTIZE
+ - [QUANTIZE](./dynamic_programming/QUANTIZE)
  - ASYMTILING
  - POLY
  - NUMB3RS  

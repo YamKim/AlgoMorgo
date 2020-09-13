@@ -1,7 +1,7 @@
 ## brute-force Problems
 [upper dir](../)
 
-## TSP(Traveling Salesman Problem, 외판원 문제)
+## 예제: 여행하는 외판원 (Traveling Salesman Problem, 외판원 문제)
 [문제링크](https://www.algospot.com/judge/problem/read/TSP1)
 
 **아이디어**

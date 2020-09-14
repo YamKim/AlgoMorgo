@@ -3,7 +3,7 @@
 
 ## 문제: Quantization (문제 ID: QUANTIZE, 난이도: 중)
 [문제링크](https://algospot.com/judge/problem/read/QUANTIZE)  
-[참곡](../PI)
+[참고-PI](../PI)
 
 **아이디어**  
 1. 각 파트의 평균일 때, 오차의 제곱합이 가장 작다는 수식 이용.

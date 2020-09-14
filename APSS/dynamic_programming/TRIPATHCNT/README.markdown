@@ -2,8 +2,8 @@
 [upper dir](../)
 
 ## 예제: 삼각형 위의 최대 경로 개수 세기 (문제 ID: TRIPATHCNT, 난이도: 중)
-[문제링크](https://algospot.com/judge/problem/read/TRIPATHCNT)
-[참고](../TRIANGLEPATH)
+[문제링크](https://algospot.com/judge/problem/read/TRIPATHCNT)  
+[참고-TRIANGLEPATH](../TRIANGLEPATH)
 
 **아이디어**  
 1. path 함수(TRIANGLEPATH 문제)로 얻는 cache를 토대로 판단해야함.

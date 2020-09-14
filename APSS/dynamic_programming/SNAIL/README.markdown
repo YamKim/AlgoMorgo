@@ -3,6 +3,7 @@
 
 ## 예제: 타일링 방법의 수 세기 (문제 ID: TILING2, 난이도: 하)
 [문제링크](https://algospot.com/judge/problem/read/TILING2)  
+[참곡](../PI)
 
 **아이디어**  
 1. 기본적인 완전탐색 + 동적계획법. (피보나치수열)

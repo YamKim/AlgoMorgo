@@ -16,7 +16,7 @@ double climb(int days, int climbed) {
 		return (ret);
 	}
 
-	ret = 0.0;	
+	ret = 0.0;
 	ret += 0.25 * climb(days + 1, climbed + 1);
 	ret += 0.75 * climb(days + 1, climbed + 2);
 

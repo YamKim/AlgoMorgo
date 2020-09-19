@@ -28,7 +28,7 @@ CHAPTER 8: 동적 계획법(dynaming programming)
  - [SNAIL](./dynamic_programming/SNAIL)
  - [ASYMTILING](./dynamic_programming/ASYMTILING)
  - [POLY](./dynamic_programming/POLY)
- - NUMB3RS  
+ - [NUMB3RS](./dynamic_programming/NUMB3RS)  
  
 CHAPTER 9
 

@@ -1,7 +1,7 @@
 ## dynamic-programming
 [upper dir](../)
 
-## 문제: 와일드카드(문제 ID: WHILDCARD, 난이도: 중)
+## 문제: 와일드카드(문제 ID: WILDCARD, 난이도: 중)
 [문제링크](https://algospot.com/judge/problem/read/WILDCARD)
 
 **아이디어**  

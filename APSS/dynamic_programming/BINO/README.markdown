@@ -37,6 +37,20 @@
 	}
 	```
 
+3. binoCalc(): 파스칼의 삼각형을 만드는 함수.
+	```cpp
+	int binoArr[MAX_SIZE][MAX_SIZE];
+	void binoArrCalc() {
+		memset(binoArr, 0, sizeof(binoArr));
+		for (int n = 0; n <= 200; ++n) {
+			binoArr[n][0] = binoArr[n][n] = 1;
+			for (int r = 1; r < n; ++r) {
+				binoArr[n][r] = binoArr[n - 1][r - 1] + binoArr[n][r];
+			}
+		}
+	}
+	```
+
 **모든 코딩은 그려질 수 있다**  
 <p align="center">
     <img src="./Algorithm.png" alt="Algorithm">

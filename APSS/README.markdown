@@ -32,9 +32,9 @@ CHAPTER 8: 동적 계획법(dynaming programming)
  
 CHAPTER 9
  - [LIS4](./dp_technic/LIS4)
- - [PACKING](./dp_technic/PACKING)
+ - [PACKING](./dp_technic/PACKING)  
  - OCR
- - MORSE
+ - [MORSE](./dp_technic/MORSE)
  - KLIS
  - DRAGON
  - ZIMBABWE
@@ -44,7 +44,6 @@ CHAPTER 9
  - BLOCKGAME
  - SUSHI
  - GENIUS
-
 
 위 contents는 알고리즘 문제해결전략(구종만 지음) 책의 풀이 과정을 정리하며 작성한 코드와 설명을 저만의 방식으로 표현한 git입니다.  
 6~11 단원을 3회독 중이지만, 항상 명료하게 이해하지 못한 부분이 발목을 잡아, 같은 내용을 똑같이 고민하는 저의 모습을 보며, "코드를 도식화해보면, 다음 이 코드를 볼 때 더 수월하고 확실하게 이해할 수 있지 않을까?" 하는 생각을 가져왔습니다.  

@@ -34,7 +34,10 @@ int cache[CACHE_SIZE][CACHE_SIZE];
 
 int matchMemoized(int w, int s) {
 	int &ret = cache[w][s];
-	if (ret != -1) return ret;
+	if (ret != -1) {
+		cout << "repeated case!\n";
+		return ret;
+	}
 	
 	while (w < W.size() && s < S.size()) {
 		if (W[w] == '?'|| W[w] == S[s]) {
@@ -63,14 +66,18 @@ int main(void) {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 
-	cin >> W;
-	int N;
-	cin >> N;
-	memset(cache, -1, sizeof(cache));
-	for (int i = 0; i < N; ++i) {
-		cin >> S;
-		if (matchMemoized(0, 0)) 
-			cout << S << "\n";
+	int C;
+	cin >> C;
+	while (C--) {
+		cin >> W;
+		int N;
+		cin >> N;
+		memset(cache, -1, sizeof(cache));
+		for (int i = 0; i < N; ++i) {
+			cin >> S;
+			if (matchMemoized(0, 0)) 
+				cout << S << "\n";
+		}
 	}
 
 	return (0);

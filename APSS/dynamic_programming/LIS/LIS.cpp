@@ -11,6 +11,7 @@ int n;
 int S[100], cache[101];
 
 int lis(int start) {
+	if (start == n - 1) return (1);
 	// start가 -1부터 시작. 인덱스는 0부터로 맞춰주기
 	int &ret = cache[start + 1];
 	if (ret != -1) {

@@ -35,7 +35,7 @@ CHAPTER 9
  - [PACKING](./dp_technic/PACKING)  
  - OCR
  - [MORSE](./dp_technic/MORSE)
- - KLIS
+ - [KLIS](./dp_technic/KLIS)
  - DRAGON
  - ZIMBABWE
  - RESTORE

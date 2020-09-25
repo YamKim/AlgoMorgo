@@ -2,7 +2,7 @@
 [upper dir](../)
 
 ## 예제: lis4  
-[참고](../../dynamic_programming/LIS)  
+[참고-LIS](../../dynamic_programming/LIS)  
 문제: LIS를 만족시키는 요소들을 출력하는 알고리듬 구성하기.  
 
 **아이디어**  

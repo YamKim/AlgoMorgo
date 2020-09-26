@@ -36,7 +36,7 @@ CHAPTER 9
  - OCR
  - [MORSE](./dp_technic/MORSE)
  - [KLIS](./dp_technic/KLIS)
- - DRAGON
+ - [DRAGON](./dp_technic/DRAGON)
  - ZIMBABWE
  - RESTORE
  - TICTACTOE

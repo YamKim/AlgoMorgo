@@ -37,7 +37,8 @@ CHAPTER 9
  - [MORSE](./dp_technic/MORSE)
  - [KLIS](./dp_technic/KLIS)
  - [DRAGON](./dp_technic/DRAGON)
- - ZIMBABWE
+ - [TSP](./dp_technic/TSP2)
+ - [ZIMBABWE](./dp_technic/ZIMBABWE)
  - RESTORE
  - TICTACTOE
  - NUMBERGAME

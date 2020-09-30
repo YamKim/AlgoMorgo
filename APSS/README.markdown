@@ -39,7 +39,7 @@ CHAPTER 9
  - [DRAGON](./dp_technic/DRAGON)
  - [TSP](./dp_technic/TSP2)
  - [ZIMBABWE](./dp_technic/ZIMBABWE)
- - RESTORE
+ - [RESTORE](./dp_technic/RESTORE)
  - TICTACTOE
  - NUMBERGAME
  - BLOCKGAME
